@@ -4,11 +4,11 @@ import {
   TouchableHighlight,
   TouchableWithoutFeedback,
   Modal,
-  WebView,
+  SafeAreaView,
 } from 'react-native';
 
 /* npm */
-import SafeAreaView from 'react-native-safe-area-view';
+import { WebView } from 'react-native-webview';
 
 /* components */
 import Header from './Header';
